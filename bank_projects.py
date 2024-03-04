@@ -68,7 +68,7 @@ def run_query(query_statement, sql_connection):
 def main():
     #This function defines the required entities and calls the relevant functions in the correct order to complete the project.
 
-    url = "https://web.archive.org/web/20230908091635/https://en.wikipedia.org/wiki/List_of_largest_banks"
+    url = "https://en.wikipedia.org/wiki/List_of_largest_banks"
     csv_path = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-PY0221EN-Coursera/labs/v2/exchange_rate.csv"
     column_names = ["Name", "MC_USD_Billion"]
     output_path = "./Largest_banks_csv"
